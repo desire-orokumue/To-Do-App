@@ -1,0 +1,33 @@
+/* Main background */
+.stApp {
+    background-color:  #151127;
+    color: #f8fafc;
+
+}
+/* Headings and text */
+h1, h2, h3, p, label {
+    color: #f8fafc;
+}
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1e293b;
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/* Text input */
+.stTextInput input {
+    border-radius: 10px;
+}
+
+/* Selectbox */
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 10px;
+}
