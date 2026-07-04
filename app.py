@@ -130,7 +130,9 @@ total_tasks = len(st.session_state.todos)
 if total_tasks > 0:
     completed_tasks = total_tasks - remaining
     progress = completed_tasks / total_tasks
-
+else:
+    completed_tasks = 0
+    progress = 0
     st.progress(progress)
     st.caption(f"Progress: {progress:.0%}") 
 
