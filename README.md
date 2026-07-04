@@ -6,6 +6,14 @@ The app helps users organize their daily tasks, set priorities, track progress, 
 
 ---
 
+## 🌐 Live Demo
+
+Try the app here:
+
+https://to-do-app-fu3lhu3ojgy8eq9tbgt6ab.streamlit.app/
+
+---
+
 ## ✨ Features
 
 - ✅ Add new tasks
